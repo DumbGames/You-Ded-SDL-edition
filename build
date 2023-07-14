@@ -1,0 +1,6 @@
+COMPILE="g++ -g -std=c++17 ./src/*.cpp -I./include -o ./bin/you_ded_Linux -lSDL2 -lSDL2_image  -ldl"
+
+eval $COMPILE
+cd bin
+./prog
+cd ..
